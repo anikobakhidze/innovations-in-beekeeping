@@ -1,0 +1,31 @@
+{
+  "home": "Home",
+  "service": "Service",
+  "about": "About Us",
+  "innovations": "Innovations",
+  "contact": "Contact",
+  "sectionName": "Innovations",
+  "dropDown": [
+    {
+      "navTitle": "Invert syrup"
+    },
+    {
+      "navTitle": "Invertase"
+    },
+    {
+      "navTitle": "Honey naturalness"
+    },
+    {
+      "navTitle": "Candy"
+    },
+    {
+      "navTitle": "Bee bread"
+    },
+    {
+      "navTitle": "Jams And Purees"
+    },
+    {
+      "navTitle": "Churchkhela"
+    }
+  ]
+}
