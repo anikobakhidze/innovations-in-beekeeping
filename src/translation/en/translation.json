@@ -138,5 +138,22 @@
       "heading": "The purpose of the website:  ",
       "paragraph": "is to introduce innovative technologies in agricultural and food industry enterprises, the essence of which is to: acquaint the heads of enterprises with technologies by demonstrating experimental samples created by the author; provide a detailed description of the technological process and lines; demonstrate processes by obtaining test samples of finished products so that the service personnel can fully master the production process."
     }
+  ],
+  "contactPage": [
+    {
+      "id": 31,
+      "title": "Email",
+      "info": "gmadzgarashvili@yahoo.com"
+    },
+    {
+      "id": 32,
+      "title": "Mobile",
+      "info": "+995 555 39 07 56"
+    },
+    {
+      "id": 33,
+      "title": "Address",
+      "info": "G.saakadze str. #45, Tbilisi,Georgia"
+    }
   ]
 }
