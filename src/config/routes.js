@@ -12,46 +12,57 @@ import JamsAndPurees from "../pages/jamsAndPurees/JamsAndPurees";
 import Churchkhela from "../pages/churchkhela/Churchkhela";
 export const routes = [
   {
+    id: 10,
     path: route.HOME,
     Component: Home,
   },
   {
+    id: 11,
     path: route.SERVICE,
     Component: Service,
   },
   {
+    id: 12,
     path: route.ABOUT,
     Component: About,
   },
   {
+    id: 13,
     path: route.INVERTSYRUP,
     Component: InvertSyrup,
   },
   {
+    id: 14,
     path: route.INVERTASE,
     Component: Invertase,
   },
   {
+    id: 15,
     path: route.HONEYNATURALNESS,
     Component: HoneyNaturalness,
   },
   {
+    id: 16,
     path: route.CANDY,
     Component: Candy,
   },
   {
+    id: 17,
     path: route.BEEBREAD,
     Component: BeeBread,
   },
   {
+    id: 18,
     path: route.JAMSANDPUREES,
     Component: JamsAndPurees,
   },
   {
+    id: 19,
     path: route.CHURCHKHELA,
     Component: Churchkhela,
   },
   {
+    id: 20,
     path: route.CONTACT,
     Component: Contact,
   },

@@ -7,25 +7,136 @@
   "sectionName": "Innovations",
   "dropDown": [
     {
+      "id": 13,
       "navTitle": "Invert syrup"
     },
     {
+      "id": 14,
       "navTitle": "Invertase"
     },
     {
+      "id": 15,
       "navTitle": "Honey naturalness"
     },
     {
+      "id": 16,
       "navTitle": "Candy"
     },
     {
+      "id": 17,
       "navTitle": "Bee bread"
     },
     {
+      "id": 18,
       "navTitle": "Jams And Purees"
     },
     {
+      "id": 19,
       "navTitle": "Churchkhela"
+    }
+  ],
+  "productDescription": [
+    {
+      "id": 1,
+      "img": "../../images/invertSyrup.jpg",
+      "heading": "Inverted sugar syrup ",
+      "subheading": "for bees and foodstuffs",
+      "paragraph": "Characteristics: absence of 5-hydroxymethylfurfural (HMF) and coloring agents detrimental to health, they are formed during acid hydrolysis of sugar when it is overheated. The method of obtaining the product involves the use of the enzyme invertase (sucrase, β-Fructofuranosidase) at a temperature of no more than 65 ± 2°C and its subsequent concentration to 81-82 wt.%..."
+    },
+    {
+      "id": 2,
+      "img": "",
+      "heading": "Invertase (sucrase, β-fructofuranosidase)",
+      "subheading": "under the trade name “Hydrolytic Agent” — for the hydrolysis of food sugar, for bees and humans.It is also used as a nutrient medium for some microbial cultures.",
+      "paragraph": " Characteristics: works to catalyze the cleavage of sucrose into simple sugars in an aqueous solution, without the formation of the harmful substance 5-hydroxymethylfurfural (HMF) (unlike acid catalysts). Its activity is expressed in international units (IU), standardized with a filler (ground sugar), manufactured according to the standard of company # 212 00 269-002-2023 (“Demetra” LLC), sterilized to suppress the activity of microbial biomass used in catalysis, protected from oxidation by removing excess water during preparation, and storing it in a neutral gas (CO2) area."
+    },
+
+    {
+      "id": 3,
+      "img": "",
+      "heading": "Honey naturalness",
+      "subheading": "determining by express method",
+      "paragraph": "The method is based on the high-temperature (up to 100°C) effect of an aqueous extract of leaf mass of trees and plants on honey. An insoluble precipitate of a group of substances appears in the mixture, the amount and volume of which (obtained by self-precipitation) depends on the botanical origin of honey (5-10 ml). In the case of adulteration of the product, the amount of precipitation decreases or does not appear at all in the absence of honey in the product under study. The method is recommended for detecting gross adulteration (the content of the surrogate is 35 wt.% or more) in a large batch of honey"
+    },
+    {
+      "id": 4,
+      "img": "",
+      "heading": "Candy(paste feed)",
+      "subheading": "containing only monosaccharides for bees",
+      "paragraph": "Unlike the traditional method of making candy (by Scholz), this  method involves complete enzymatic hydrolysis of the basic raw material - food sugar, thickening of the resulting product at a low (safe) temperature and achieving rapid crystallization, which avoids: multicomponent, expensive equipment, high energy costs, the physiological perfection of food and a significant economic effect are achieved…"
+    },
+    {
+      "id": 5,
+      "img": "",
+      "heading": "Making bee bread, an environmentally friendly product",
+      "subheading": "without beehive (honeycombs)",
+      "paragraph": "Characteristics: Both in nature and in the factory, bee bread is produced through the fermentation of pollen mainly caused by lactic acid bacteria. This solution allows us to avoid impurities, significantly reduce the canning time and production cost..."
+    },
+    {
+      "id": 6,
+      "img": "",
+      "heading": "Jams and purees",
+      "subheading": "environmentally sound technologies for the production",
+      "paragraph": "Characteristics: absence of coloring substances formed during the oxidation of harmful 5-hydroxymethylfurfural and phenolic compounds; possibility of using a low-temperature mode of concentration of a mixture of fruit and carbohydrate syrup by reducing the duration of the process; preservation of the presentation of the finished product (color, smell, taste, mechanical properties); improved economic indicators..."
+    },
+    {
+      "id": 7,
+      "img": "",
+      "heading": "Churchkhela – Georgian delicacy ",
+      "subheading": "improved method of making",
+      "paragraph": "Characteristics: prevention of the formation of 5-hydroxymethylfurfural (HMF) and oxidation of phenolic compounds during production; accelerated thickening of grape juice (Badagi) at low temperature and obtaining an environmentally safe product by conditioning its mixture with wheat flour hydrolysate; reduction of the total duration of the process from 165 to 28-30 hours; improved economic indicators..."
+    }
+  ],
+
+  "servicePageDetails": [
+    {
+      "id": 21,
+      "paragraph": "By creating the abovementioned website, the author shall undertake:"
+    },
+    {
+      "id": 22,
+      "paragraph": " -  To ensure the introduction of the content chosen by the customer at its enterprise through the following procedures: familiarization with the developed technology with the heads of the enterprise, presentation of samples of finished products with their characteristics; Description of the technological line to perform the set work and choose the optimal equipment configuration together with the employees of the enterprise, to perform the necessary consulting work for the installation and commissioning of the device; Collection of technical and economic indicators in the production of test batches of products and an approximate calculation of the economic effect; Final determination of the perspectives and the provision of a visible advantage of the production of the resulting products in comparison with similar ones on the market;"
+    },
+    {
+      "id": 23,
+      "paragraph": " -  When using the components that are the know-how of a particular technology (For example, hydrolyzing agent for making inverted sugar syrup, crystallizing agent for candy, herbal reagents for determining the naturalness of honey, composition of microbial culture and food ingredients for the production of bee bread), the author undertakes to ensure their production by pre-determining the cost of the facility of his choice;"
+    },
+    {
+      "id": 24,
+      "paragraph": " -  To determine the author s royalty rate as a percentage of the value of products and payment terms in consultation with the heads of enterprises and with their consent. To do this, to take into account the requirements of current legislation in a specific area (agricultural and food industry enterprises)."
+    }
+  ],
+  "aboutPageDetails": [
+    {
+      "id": 25,
+      "heading": "Author:",
+      "paragraph": "Madzgarashvili Gogi (George), Doctor of Agricultural Sciences, Professor, born in 1937;"
+    },
+    {
+      "id": 26,
+      "heading": "Scientific works:",
+      "paragraph": "111 scientific publications, including 2 monographs, co-author of 1 textbook; 12 inventions, including 4 registered copyrights;"
+    },
+    {
+      "id": 27,
+      "heading": "Scientific experience: ",
+      "paragraph": "He has been engaged in scientific-research activities since 1961, in 1965 the Candidate of Agricultural Sciences awarded, in 1988 s- Doctor of Agricultural Sciences;"
+    },
+
+    {
+      "id": 28,
+      "heading": "Training of scientific personnel: ",
+      "paragraph": "Training of five specialists with the degree of Candidates of Sciences; He has received the Order of the Badge of Honor;"
+    },
+    {
+      "id": 29,
+      "heading": "Web content:",
+      "paragraph": "includes innovative technologies, most of which belong to the author."
+    },
+    {
+      "id": 30,
+      "heading": "The purpose of the website:  ",
+      "paragraph": "is to introduce innovative technologies in agricultural and food industry enterprises, the essence of which is to: acquaint the heads of enterprises with technologies by demonstrating experimental samples created by the author; provide a detailed description of the technological process and lines; demonstrate processes by obtaining test samples of finished products so that the service personnel can fully master the production process."
     }
   ]
 }
