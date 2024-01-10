@@ -1,0 +1,18 @@
+.aboutWrapper {
+  background-color: var(--black-color);
+  padding: 3rem;
+}
+.aboutWrapper h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--yellow-color);
+  margin-bottom: 2rem;
+}
+.aboutWrapper > div:last-child {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutWrapper > div:last-child div:not(:last-child) {
+  margin-bottom: 2rem;
+}

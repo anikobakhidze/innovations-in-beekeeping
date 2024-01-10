@@ -1,0 +1,30 @@
+.serviceWrapper {
+  display: flex;
+  align-items: center;
+  background-color: var(--black-color);
+  padding: 3rem;
+}
+.serviceWrapper > div:first-child {
+  width: 65%;
+  margin-right: 5rem;
+}
+.serviceWrapper > div:last-child img {
+  width: 350px;
+}
+.serviceWrapper h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--yellow-color);
+  margin-bottom: 2rem;
+}
+.serviceWrapper p {
+  color: var(--cream-color);
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+}
+.serviceWrapper p:first-child {
+  font-size: 20px;
+  color: var(--light-yellow-color);
+  margin-bottom: 2rem;
+}

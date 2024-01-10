@@ -8,13 +8,11 @@
 }
 
 .cardWrapper h3 {
-  color: var(--yellow-color);
-}
-
-.cardWrapper h3 {
   font-weight: 900;
   font-size: 22px;
   margin-bottom: 10px;
+  color: var(--yellow-color);
+  line-height: 1.5;
 }
 
 .cardWrapper h4 {
@@ -29,7 +27,7 @@
   line-height: 1.5;
   font-size: 18px;
   text-align: justify;
-  color: var(--cream-color)
+  color: var(--cream-color);
 }
 
 .cardWrapper:first-child img {
@@ -38,7 +36,6 @@
   border-top-left-radius: 20px;
 }
 
-.cardWrapper>:nth-child(2) {
+.cardWrapper > :nth-child(2) {
   padding: 20px;
-
 }
