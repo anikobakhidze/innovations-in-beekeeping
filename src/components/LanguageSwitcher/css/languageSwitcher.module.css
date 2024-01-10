@@ -1,0 +1,22 @@
+.languageWrapper button:not(:last-child) {
+  margin-right: 4px;
+}
+
+.languageWrapper button {
+  color: var(--cream-color);
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 50%;
+  /* border: 1px solid #FFE195; */
+  background-color: var(--black-color);
+  border: none
+}
+
+.languageWrapper button:hover {
+  background-color: rgba(255, 225, 149, 0.3);
+
+}
+
+.selectedLanguage {
+  background-color: rgba(255, 225, 149, 0.6) !important;
+}

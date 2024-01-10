@@ -1,0 +1,28 @@
+.innovationsSectionWrapper {
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 6rem; */
+  background-color: var(--black-color);
+  padding: 8rem;
+}
+
+
+
+.innovationsSectionWrapper h1 {
+  color: var(--yellow-color);
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  font-size: 72px;
+
+}
+
+.innovationsSectionWrapper>div {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}

@@ -1,0 +1,9 @@
+.logoWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.logoWrapper h1 {
+  color: var(--cream-color);
+  font-size: 22px;
+}

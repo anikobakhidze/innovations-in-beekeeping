@@ -2,11 +2,11 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router-dom";
 import { routes } from "../../config/routes";
-function DropDown() {
+function DropDown({ style }) {
   const { t } = useTranslation();
 
   return (
-    <ul>
+    <ul className={style}>
       {t("dropDown", { returnObjects: true }).map((title) => {
         const equalRoute = routes.find((route) => route.id === title.id);
         return (

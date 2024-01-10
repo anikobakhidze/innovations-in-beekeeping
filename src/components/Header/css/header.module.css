@@ -1,0 +1,10 @@
+.headerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--black-color);
+  padding: 2rem;
+  border-bottom: 1px solid;
+  border-image: linear-gradient(90deg, rgba(255, 186, 65, 1) 1%, rgba(66, 50, 24, 1) 81%, rgba(12, 12, 12, 1) 100%);
+  border-image-slice: 1;
+}
