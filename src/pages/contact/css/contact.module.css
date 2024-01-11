@@ -1,0 +1,28 @@
+.contactWrapper {
+  padding: 4rem;
+  height: 100%;
+  background-color: var(--black-color);
+}
+
+.contactWrapper h2 {
+  font-size: 24px;
+  color: var(--yellow-color);
+}
+
+.contactInfoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.mapContainer {
+  width: 600px;
+
+}
+
+.mapGeo {
+  border-radius: 10%;
+
+}

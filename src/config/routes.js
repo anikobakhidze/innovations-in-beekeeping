@@ -28,36 +28,43 @@ export const routes = [
   },
   {
     id: 13,
+    equal: 1,
     path: route.INVERTSYRUP,
     Component: InvertSyrup,
   },
   {
     id: 14,
+    equal: 2,
     path: route.INVERTASE,
     Component: Invertase,
   },
   {
     id: 15,
+    equal: 3,
     path: route.HONEYNATURALNESS,
     Component: HoneyNaturalness,
   },
   {
     id: 16,
+    equal: 4,
     path: route.CANDY,
     Component: Candy,
   },
   {
     id: 17,
+    equal: 5,
     path: route.BEEBREAD,
     Component: BeeBread,
   },
   {
     id: 18,
+    equal: 6,
     path: route.JAMSANDPUREES,
     Component: JamsAndPurees,
   },
   {
     id: 19,
+    equal: 7,
     path: route.CHURCHKHELA,
     Component: Churchkhela,
   },

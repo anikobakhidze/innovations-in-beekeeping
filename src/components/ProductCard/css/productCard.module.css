@@ -36,6 +36,7 @@
   border-top-left-radius: 20px;
 }
 
-.cardWrapper > :nth-child(2) {
+.cardWrapper> :nth-child(2) {
   padding: 20px;
+  cursor: pointer;
 }

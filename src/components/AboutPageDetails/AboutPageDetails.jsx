@@ -5,16 +5,16 @@ import styles from "./css/aboutPageDetails.module.css";
 function AboutPageDetails() {
   const { t } = useTranslation();
   const details = t("aboutPageDetails", { returnObjects: true });
-  const [isVisibleParagraph, setIsVisibleParagraph] = useState([]);
+  const [isVisibleParagraph, setIsVisibleParagrah] = useState([]);
   function handleShow(id) {
     if (isVisibleParagraph.includes(id)) {
-      setIsVisibleParagraph(isVisibleParagraph.filter((item) => item !== id));
+      setIsVisibleParagrah(isVisibleParagraph.filter((item) => item !== id));
     } else {
-      setIsVisibleParagraph([...isVisibleParagraph, id]);
+      setIsVisibleParagrah([...isVisibleParagraph, id]);
     }
   }
   return (
-    <div>
+    <div className={styles.AboutPageDetailsContainer}>
       {details.map((detail) => {
         const isParagraph = isVisibleParagraph.includes(detail.id);
         return (

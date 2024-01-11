@@ -1,0 +1,29 @@
+.contactInfoDetailsWrapper {
+  width: 550px;
+  display: flex;
+}
+
+.contactInfoDetailsWrapper h3 {
+  color: var(--light-yellow-color);
+  font-size: 22px;
+  width: 200px;
+
+}
+
+.contactInfoDetailsWrapper:nth-child(2) {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.contactInfoDetailsWrapper p {
+  color: var(--cream-color);
+  width: 350px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.icon {
+  font-size: 2rem;
+  color: var(--cream-color);
+  margin-right: 10px;
+}
