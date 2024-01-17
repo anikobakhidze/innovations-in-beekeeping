@@ -31,7 +31,7 @@ function NavBar() {
           className={styles.innovationNav}
         >
           {t("innovations")}
-          {show && <DropDown style={styles.dropDown} />}
+          {show && <DropDown />}
         </li>
         <li>
           <NavLink to={route.CONTACT}>{t("contact")}</NavLink>

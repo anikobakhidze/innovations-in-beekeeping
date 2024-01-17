@@ -19,13 +19,3 @@
   cursor: pointer;
   position: relative;
 }
-
-.dropDown {
-  position: absolute;
-  padding-top: 10px;
-  width: 200px;
-}
-
-.dropDown li {
-  padding-bottom: 10px;
-}

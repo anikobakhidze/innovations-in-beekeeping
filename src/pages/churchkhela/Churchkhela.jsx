@@ -1,7 +1,7 @@
 import React from "react";
-
+import styles from "../../sharedCss/sharedCss.module.css";
 function Churchkhela() {
-  return <div>Churchkhela</div>;
+  return <main className={styles.pageBackground}>Churchkhela</main>;
 }
 
 export default Churchkhela;

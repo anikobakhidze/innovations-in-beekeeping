@@ -1,7 +1,7 @@
 import React from "react";
-
+import styles from "../../sharedCss/sharedCss.module.css";
 function JamsAndPurees() {
-  return <div>JamsAndPurees</div>;
+  return <main className={styles.pageBackground}>JamsAndPurees</main>;
 }
 
 export default JamsAndPurees;

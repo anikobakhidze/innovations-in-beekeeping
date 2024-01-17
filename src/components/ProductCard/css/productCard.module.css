@@ -30,7 +30,7 @@
   color: var(--cream-color);
 }
 
-.cardWrapper:first-child img {
+.cardWrapper>div img {
   width: 100%;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;

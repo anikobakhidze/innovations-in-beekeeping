@@ -1,0 +1,12 @@
+.dropDownWrapper {
+
+  position: absolute;
+  padding-top: 10px;
+  width: 200px;
+  background-color: var(--black-color);
+
+}
+
+.dropDownWrapper li {
+  padding-bottom: 10px;
+}
