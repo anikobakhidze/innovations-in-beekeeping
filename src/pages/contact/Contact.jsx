@@ -2,12 +2,12 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import ContactInfo from "../../components/ContactInfo/ContactInfo";
 import styles from "./css/contact.module.css";
-
+import shared from "../../sharedCss/sharedCss.module.css";
 function Contact() {
   const { t } = useTranslation();
 
   return (
-    <div className={styles.contactWrapper}>
+    <div className={`${shared.pageBackground} ${styles.contactWrapper}`}>
       <h2>{t("contact")}</h2>
       <div className={styles.contactInfoContainer}>
         <ContactInfo />

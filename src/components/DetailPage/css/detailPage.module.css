@@ -1,0 +1,27 @@
+.articleContainer {
+  width: 80%;
+  margin: 0 auto;
+  text-align: justify;
+  padding: 3rem 0;
+
+}
+
+.articleContainer h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--yellow-color);
+  margin-bottom: 2rem;
+}
+
+.articleContainer h5 {
+  font-size: 22px;
+  color: var(--light-yellow-color);
+  text-transform: capitalize;
+  margin-bottom: 3rem;
+}
+
+.articleContainer p {
+  color: var(--cream-color);
+  line-height: 1.6em;
+  font-size: 20px;
+}

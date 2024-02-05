@@ -1,9 +1,9 @@
 .serviceWrapper {
   display: flex;
-  align-items: center;
   background-color: var(--black-color);
   padding: 3rem;
-  height: 100%;
+  height: 80vh;
+  justify-content: center;
 }
 
 .serviceWrapper>div:first-child {
