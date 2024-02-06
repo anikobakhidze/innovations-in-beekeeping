@@ -142,6 +142,10 @@ code {
     monospace;
 }
 
+body {
+  height: 100%;
+}
+
 :root {
   --black-color: #1f1e1e;
   --yellow-color: #FFC24B;
