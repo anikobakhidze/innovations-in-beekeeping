@@ -17,11 +17,23 @@
 }
 
 .innovationsSectionWrapper>div {
-  display: flex;
+  display: flex !important;
   gap: 80px;
   align-items: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 
+}
+
+@media screen and (max-width:1330px) {
+  .innovationsSectionWrapper {
+    padding: 4rem;
+  }
+}
+
+@media screen and (max-width:1425px) {
+  .innovationsSectionWrapper>div {
+    justify-content: center;
+  }
 }

@@ -13,14 +13,12 @@ function ProductCard({ card }) {
 
   return (
     <div className={styles.cardWrapper}>
-      <div>
-        <img src={card.img} alt="profPic" />
-      </div>
+      <img src={card.img} alt="profPic" />
       <div onClick={() => handleClick(card.id)}>
         <h3>{card.heading}</h3>
         {card.subheading && <h4>{card.subheading}</h4>}
-        <p>{card.paragraph}</p>
       </div>
+      <p>{card.paragraph}</p>
     </div>
   );
 }
