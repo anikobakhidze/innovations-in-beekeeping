@@ -1,11 +1,10 @@
 .innovationsSectionWrapper {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   background-color: var(--black-color);
-  padding: 8rem;
+  padding: 6rem;
 }
-
-
 
 .innovationsSectionWrapper h1 {
   color: var(--yellow-color);
@@ -17,23 +16,28 @@
 }
 
 .innovationsSectionWrapper>div {
-  display: flex !important;
+  display: flex;
   gap: 80px;
   align-items: center;
-  display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 
 }
 
-@media screen and (max-width:1330px) {
+@media screen and (max-width:1750px) {
   .innovationsSectionWrapper {
-    padding: 4rem;
+    padding: 4rem 6rem;
+  }
+
+  .innovationsSectionWrapper h1 {
+    font-size: 50px;
   }
 }
 
-@media screen and (max-width:1425px) {
-  .innovationsSectionWrapper>div {
-    justify-content: center;
+@media screen and (max-width:1490px) {
+  .innovationsSectionWrapper {
+    padding: 2rem;
   }
+
+
 }
