@@ -12,19 +12,17 @@
   font-size: 3rem;
   margin-bottom: 3rem;
   font-size: 72px;
-
 }
 
-.innovationsSectionWrapper>div {
+.innovationsSectionWrapper > div {
   display: flex;
   gap: 80px;
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-between;
-
 }
 
-@media screen and (max-width:1750px) {
+@media screen and (max-width: 1750px) {
   .innovationsSectionWrapper {
     padding: 4rem 6rem;
   }
@@ -34,10 +32,24 @@
   }
 }
 
-@media screen and (max-width:1490px) {
+@media screen and (max-width: 1490px) {
   .innovationsSectionWrapper {
     padding: 2rem;
   }
+}
+@media screen and (max-width: 930px) {
+  .innovationsSectionWrapper > div {
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 711px) {
+  .innovationsSectionWrapper > div {
+    gap: 35px;
+  }
+}
 
-
+@media screen and (max-width: 500px) {
+  .innovationsSectionWrapper > div {
+    gap: 20px;
+  }
 }

@@ -106,7 +106,7 @@ body {
   line-height: 1;
   background-color: var(--black-color);
   height: 100%;
-  background-image: url('./../public/images/background.png');
+  background-image: url("./../public/images/background.png");
 }
 
 ol,
@@ -148,10 +148,9 @@ body {
 
 :root {
   --black-color: #1f1e1e;
-  --yellow-color: #FFC24B;
+  --yellow-color: #ffc24b;
   --light-yellow-color: #fbe098fc;
-  --cream-color: #FFF9C0;
-
+  --cream-color: #fff9c0;
 }
 
 #root {
@@ -163,5 +162,11 @@ body {
 }
 
 .active {
-  color: var(--cream-color)
+  color: var(--cream-color);
+}
+@media screen and (max-width: 1200px) {
+  #root {
+    width: 100%;
+    margin: 0px;
+  }
 }
