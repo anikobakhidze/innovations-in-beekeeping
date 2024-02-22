@@ -7,7 +7,7 @@
   padding: 10px 20px;
   cursor: pointer;
   border-radius: 50%;
-  /* border: 1px solid #FFE195; */
+
   background-color: var(--black-color);
   border: none
 }
@@ -19,4 +19,12 @@
 
 .selectedLanguage {
   background-color: rgba(255, 225, 149, 0.6) !important;
+}
+
+@media screen and (max-width: 1373px) {
+  .languageWrapper button {
+    width: 50px;
+    height: 30px;
+    padding: 7px 0px;
+  }
 }

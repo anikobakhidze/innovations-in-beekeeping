@@ -14,3 +14,10 @@
 .dropDownWrapper li:not(:last-child) {
   line-height: 1.6em;
 }
+
+@media screen and (max-width:970px) {
+
+  .dropDownWrapper {
+    width: 100px;
+  }
+}

@@ -8,3 +8,9 @@
   border-image: linear-gradient(90deg, rgba(255, 186, 65, 1) 1%, rgba(66, 50, 24, 1) 81%, rgba(12, 12, 12, 1) 100%);
   border-image-slice: 1;
 }
+
+@media screen and (max-width: 1373px) {
+  .headerWrapper {
+    padding: 1rem 2rem;
+  }
+}

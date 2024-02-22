@@ -8,11 +8,9 @@ function NavBar() {
   const { t } = useTranslation();
   const [show, setShow] = useState(false);
   function handleShow() {
-    setShow(true);
+    setShow(() => !show);
   }
-  function handleHide() {
-    setShow(false);
-  }
+
   return (
     <nav>
       <ul className={styles.navbarContainer}>
@@ -27,7 +25,7 @@ function NavBar() {
         </li>
         <li
           onMouseEnter={handleShow}
-          onMouseLeave={handleHide}
+          onMouseLeave={handleShow}
           className={styles.innovationNav}
         >
           {t("innovations")}

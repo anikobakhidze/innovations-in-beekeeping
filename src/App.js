@@ -12,6 +12,7 @@ function App() {
     setLoading(true);
     setTimeout(() => setLoading(false), 1000);
   }, [location.pathname, setLoading]);
+
   return (
     <>
       {loading ? (

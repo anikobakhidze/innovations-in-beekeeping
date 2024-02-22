@@ -14,7 +14,7 @@
   font-size: 72px;
 }
 
-.innovationsSectionWrapper > div {
+.innovationsSectionWrapper>div {
   display: flex;
   gap: 80px;
   align-items: center;
@@ -37,19 +37,21 @@
     padding: 2rem;
   }
 }
-@media screen and (max-width: 930px) {
-  .innovationsSectionWrapper > div {
+
+@media screen and (max-width: 940px) {
+  .innovationsSectionWrapper>div {
     gap: 50px;
   }
 }
+
 @media screen and (max-width: 711px) {
-  .innovationsSectionWrapper > div {
+  .innovationsSectionWrapper>div {
     gap: 35px;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .innovationsSectionWrapper > div {
+  .innovationsSectionWrapper>div {
     gap: 20px;
   }
 }

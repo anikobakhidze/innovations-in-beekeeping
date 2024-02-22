@@ -19,3 +19,31 @@
   cursor: pointer;
   position: relative;
 }
+
+@media screen and (max-width:1373px) {
+  .navbarContainer {
+    gap: 2rem;
+  }
+
+  .navbarContainer li {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width:1100px) {
+  .navbarContainer {
+    gap: 2rem;
+  }
+
+  .navbarContainer li {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:970px) {
+  .navbarContainer {
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

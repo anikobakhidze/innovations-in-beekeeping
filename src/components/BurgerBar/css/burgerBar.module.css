@@ -1,0 +1,26 @@
+ .menuBarWrapper {
+   display: none;
+   position: relative;
+ }
+
+ .menuBar {
+   background-color: var(--black-color);
+   color: var(--yellow-color);
+   font-size: 25px;
+   border: none;
+ }
+
+ @media screen and (max-width:970px) {
+   .menuBarWrapper {
+     display: flex;
+   }
+
+   .menuBarWrapper>div {
+     position: absolute;
+     top: 25px;
+     left: -110px;
+     background-color: var(--black-color);
+     width: 120px;
+     padding: 20px;
+   }
+ }

@@ -16,3 +16,34 @@
 .footerWrapper p:hover:not(:last-child) {
   color: var(--cream-color);
 }
+
+@media screen and (max-width: 1373px) {
+  .footerWrapper {
+    padding: 2rem 0;
+  }
+
+  .footerWrapper p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .footerWrapper {
+    padding: 2rem 0;
+  }
+
+  .footerWrapper p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footerWrapper {
+    padding: 2rem 0;
+  }
+
+  .footerWrapper p {
+    font-size: 14px;
+  }
+
+}
