@@ -23,3 +23,38 @@
 .aboutWrapper>div:last-child div:not(:last-child) {
   margin-bottom: 2rem;
 }
+
+@media screen and (max-width:1470px) {
+  .aboutWrapper h2 {
+    font-size: 24px;
+  }
+
+  .aboutWrapper>div:last-child div:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+
+  .aboutWrapper {
+    justify-content: flex-start;
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .aboutWrapper h2 {
+    font-size: 20px;
+  }
+
+  .aboutWrapper>div:last-child div:not(:last-child) {
+    margin-bottom: 1.2rem;
+  }
+
+  .aboutWrapper {
+    padding-top: 30px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .aboutWrapper>div:last-child div:not(:last-child) {
+    margin-bottom: 0;
+  }
+}

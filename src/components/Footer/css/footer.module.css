@@ -47,3 +47,13 @@
   }
 
 }
+
+@media screen and (max-width: 400px) {
+  .footerWrapper {
+    padding: 1rem 0;
+  }
+
+  .footerWrapper p {
+    font-size: 10px;
+  }
+}

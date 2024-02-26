@@ -39,8 +39,15 @@
 }
 
 @media screen and (max-width: 940px) {
+
   .innovationsSectionWrapper>div {
     gap: 50px;
+  }
+
+  .innovationsSectionWrapper h1 {
+    font-size: 40px;
+    margin-bottom: 2rem;
+
   }
 }
 
@@ -48,10 +55,26 @@
   .innovationsSectionWrapper>div {
     gap: 35px;
   }
+
+  .innovationsSectionWrapper h1 {
+    font-size: 30px;
+
+    margin-bottom: 1.5rem;
+
+  }
 }
 
 @media screen and (max-width: 500px) {
+  .innovationsSectionWrapper {
+    padding: 1.5rem 2rem;
+  }
+
   .innovationsSectionWrapper>div {
     gap: 20px;
+  }
+
+  .innovationsSectionWrapper h1 {
+    font-size: 25px;
+    margin-bottom: 1.2rem;
   }
 }

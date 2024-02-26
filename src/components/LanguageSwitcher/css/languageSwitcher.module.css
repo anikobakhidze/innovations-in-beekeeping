@@ -28,3 +28,11 @@
     padding: 7px 0px;
   }
 }
+
+@media screen and (max-width:500px) {
+  .languageWrapper button {
+    width: 35px;
+    height: 33px;
+    padding: 3px 0px;
+  }
+}

@@ -33,8 +33,53 @@
   width: 30%;
   font-size: 22px;
   color: var(--light-yellow-color);
+  line-height: 1.5;
 }
 
 .AboutPageDetailsContainer {
   width: 70%;
+}
+
+@media screen and (max-width:1300px) {
+  .aboutPageDetailsWrapper h3 {
+    width: 40%;
+    font-size: 20px;
+
+  }
+
+  .aboutPageDetailsWrapper p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .AboutPageDetailsContainer {
+    width: 80%;
+  }
+
+  .aboutPageDetailsWrapper h3 {
+    font-size: 18px;
+
+  }
+
+  .aboutPageDetailsWrapper p {
+    font-size: 16px;
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .AboutPageDetailsContainer {
+    width: 90%;
+  }
+
+  .aboutPageDetailsWrapper h3 {
+    font-size: 16px;
+
+  }
+
+  .aboutPageDetailsWrapper p {
+    font-size: 14px;
+    margin-left: 1rem;
+  }
 }

@@ -7,3 +7,15 @@
   color: var(--cream-color);
   font-size: 22px;
 }
+
+@media screen and (max-width: 930px) {
+  .logoWrapper h1 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .logoWrapper h1 {
+    font-size: 18px;
+  }
+}

@@ -11,9 +11,8 @@ function Service() {
         <h2>{t("service")}</h2>
         <ServicePageDetails />
       </div>
-      <div>
-        <img src="../../images/servicePic.png" alt="service" />
-      </div>
+
+      <img src="../../images/servicePic.png" alt="service" />
     </section>
   );
 }
