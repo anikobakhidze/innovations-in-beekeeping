@@ -3,7 +3,6 @@
   margin: 0 auto;
   text-align: justify;
   padding: 3rem 0;
-
 }
 
 .articleContainer h3 {
@@ -11,6 +10,7 @@
   font-weight: 600;
   color: var(--yellow-color);
   margin-bottom: 2rem;
+  line-height: 1.5;
 }
 
 .articleContainer h5 {

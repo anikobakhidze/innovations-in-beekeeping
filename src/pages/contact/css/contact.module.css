@@ -1,6 +1,5 @@
 .contactWrapper {
   padding: 4rem;
-
 }
 
 .contactWrapper h2 {
@@ -10,7 +9,6 @@
 
 .contactInfoContainer {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   margin-top: 4rem;
@@ -18,10 +16,43 @@
 
 .mapContainer {
   width: 600px;
-
 }
 
 .mapGeo {
   border-radius: 10%;
+}
+@media screen and (max-width: 1250px) {
+  .contactWrapper {
+    padding: 4rem;
+  }
+  .contactWrapper h2 {
+    font-size: 22px;
+  }
+  .mapContainer {
+    width: 400px;
+  }
+  .mapGeo {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 820px) {
+  .mapGeo {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 670px) {
+  .mapContainer {
+    display: none;
+  }
 
+  .contactWrapper {
+    padding: 2rem;
+  }
+  .contactInfoContainer {
+    margin-top: 3rem;
+  }
+  .contactWrapper h2 {
+    text-align: center;
+  }
 }
