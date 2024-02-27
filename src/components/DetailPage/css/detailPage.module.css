@@ -25,3 +25,21 @@
   line-height: 1.6em;
   font-size: 20px;
 }
+
+.articleContainer .imageWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.imageWrapper img {
+  height: 350px;
+}
+
+.imageWrapper img,
+.imageWrapper p {
+  width: 300px;
+
+}

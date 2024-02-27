@@ -20,7 +20,8 @@
      top: 25px;
      left: -110px;
      background-color: var(--black-color);
-     width: 120px;
+     width: 110px;
      padding: 20px;
+     z-index: 30;
    }
  }

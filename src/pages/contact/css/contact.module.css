@@ -21,37 +21,48 @@
 .mapGeo {
   border-radius: 10%;
 }
+
 @media screen and (max-width: 1250px) {
   .contactWrapper {
     padding: 4rem;
   }
+
   .contactWrapper h2 {
     font-size: 22px;
   }
+
   .mapContainer {
     width: 400px;
   }
+
   .mapGeo {
     width: 350px;
   }
 }
+
 @media screen and (max-width: 820px) {
   .mapGeo {
     width: 200px;
     height: 200px;
   }
 }
+
 @media screen and (max-width: 670px) {
   .mapContainer {
-    display: none;
+    text-align: center;
+    width: 300px;
   }
 
   .contactWrapper {
     padding: 2rem;
   }
+
   .contactInfoContainer {
     margin-top: 3rem;
+    flex-direction: column;
+    gap: 20px;
   }
+
   .contactWrapper h2 {
     text-align: center;
   }

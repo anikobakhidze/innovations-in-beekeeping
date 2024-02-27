@@ -1,4 +1,5 @@
 .pageBackground {
   background-color: var(--black-color);
   /* height: 100vh; */
+  padding-top: 50px;
 }
