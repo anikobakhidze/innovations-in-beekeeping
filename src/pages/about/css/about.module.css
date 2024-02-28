@@ -15,12 +15,12 @@
   margin-bottom: 2rem;
 }
 
-.aboutWrapper > div:last-child {
+.aboutWrapper>div:last-child {
   display: flex;
   flex-direction: column;
 }
 
-.aboutWrapper > div:last-child div:not(:last-child) {
+.aboutWrapper>div:last-child div:not(:last-child) {
   margin-bottom: 2rem;
 }
 
@@ -29,7 +29,7 @@
     font-size: 24px;
   }
 
-  .aboutWrapper > div:last-child div:not(:last-child) {
+  .aboutWrapper>div:last-child div:not(:last-child) {
     margin-bottom: 1rem;
   }
 
@@ -44,17 +44,18 @@
     font-size: 20px;
   }
 
-  .aboutWrapper > div:last-child div:not(:last-child) {
+  .aboutWrapper>div:last-child div:not(:last-child) {
     margin-bottom: 1.2rem;
   }
 
   .aboutWrapper {
     padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .aboutWrapper > div:last-child div:not(:last-child) {
+  .aboutWrapper>div:last-child div:not(:last-child) {
     margin-bottom: 0;
   }
 }

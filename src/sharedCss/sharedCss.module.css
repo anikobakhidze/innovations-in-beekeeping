@@ -1,5 +1,17 @@
 .pageBackground {
   background-color: var(--black-color);
-  /* height: 100vh; */
-  padding-top: 50px;
+  padding-top: 30px;
+}
+
+@media screen and (max-width: 950px) {
+  .pageBackground {
+
+    padding-top: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .pageBackground {
+    padding-top: 20px;
+  }
 }
