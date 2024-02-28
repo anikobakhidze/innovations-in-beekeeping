@@ -35,7 +35,7 @@ function SearchBar() {
     };
   }, []);
   return (
-    <div ref={inputRef}>
+    <div ref={inputRef} className={styles.inputWrapper}>
       <input
         type="text"
         placeholder="Search"
