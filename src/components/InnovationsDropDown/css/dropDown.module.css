@@ -9,6 +9,7 @@
 
 .dropDownWrapper li {
   padding-bottom: 10px;
+  line-height: 1.2;
 }
 
 .dropDownWrapper li:not(:last-child) {

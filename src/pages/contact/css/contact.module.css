@@ -1,5 +1,8 @@
 .contactWrapper {
   padding: 4rem;
+  min-height: 100vh;
+  height: 100%;
+  background-color: var(--black-color);
 }
 
 .contactWrapper h2 {
@@ -25,6 +28,7 @@
 @media screen and (max-width: 1250px) {
   .contactWrapper {
     padding: 4rem;
+
   }
 
   .contactWrapper h2 {

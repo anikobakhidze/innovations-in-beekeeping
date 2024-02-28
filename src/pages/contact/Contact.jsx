@@ -7,7 +7,7 @@ function Contact() {
   const { t } = useTranslation();
 
   return (
-    <div className={`${shared.pageBackground} ${styles.contactWrapper}`}>
+    <div className={styles.contactWrapper}>
       <h2>{t("contact")}</h2>
       <div className={styles.contactInfoContainer}>
         <ContactInfo />
