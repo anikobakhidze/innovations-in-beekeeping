@@ -25,7 +25,6 @@ input::placeholder {
 }
 
 input:focus {
-  /* border: 1px solid var(--light-yellow-color); */
   border-radius: 10px;
 
 }
@@ -50,8 +49,31 @@ input:focus::placeholder {
   padding-left: 30px;
   line-height: 1.5;
   cursor: pointer;
+  border-bottom: 0.5px solid rgba(255, 249, 192, 0.3);
 }
 
 .searchResultContainer li:hover {
   background-color: rgba(255, 249, 192, 0.5)
+}
+
+@media screen and (max-width: 500px) {
+  input {
+    height: 20px;
+    padding-left: 10px;
+  }
+
+  input::placeholder {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .searchResultContainer {
+    height: 25%;
+  }
+
+  .searchResultContainer li {
+    font-size: 14px;
+    padding-left: 10px;
+  }
+
 }

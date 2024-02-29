@@ -2,10 +2,10 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import ContactInfo from "../../components/ContactInfo/ContactInfo";
 import styles from "./css/contact.module.css";
-import shared from "../../sharedCss/sharedCss.module.css";
+import useTitle from "../../hook/useTitle";
 function Contact() {
   const { t } = useTranslation();
-
+  useTitle("Contact Page");
   return (
     <div className={styles.contactWrapper}>
       <h2>{t("contact")}</h2>

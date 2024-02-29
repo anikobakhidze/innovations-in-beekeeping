@@ -25,7 +25,7 @@ function ContactInfoDetails({ info }) {
       )}
       <p>
         {info.id === 31 ? (
-          <Link to="mailto:gmadzgarashvili@yahoo.com">{info.info}</Link>
+          <Link to="mailto:innovationsdemetra@gmail.com">{info.info}</Link>
         ) : info.id === 32 ? (
           <Link to="tel:+995555390756">{info.info}</Link>
         ) : (

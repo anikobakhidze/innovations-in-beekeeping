@@ -143,7 +143,7 @@
     {
       "id": 31,
       "title": "Email",
-      "info": "gmadzgarashvili@yahoo.com"
+      "info": "innovationsdemetra@gmail.com"
     },
     {
       "id": 32,
@@ -166,7 +166,9 @@
       "paragraph3": "Preparation of syrup: Water is poured into the inner container and heated to 80°C, sugar is added while stirring, an enzyme preparation is added at the same time and the mixture is heated to 65-67°C, after which the container with syrup is covered with a lid and kept at this temperature for 24 hours (hydrolysis process). Then the lid is removed maintaining the temperature for another 24 hours (evaporation of excess water). At the end of the process, the concentration of the solution reaches 76-77wt.%. To preserve the syrup in a liquid state for a long time, the concentration of the solution is increased to 81-82 wt.% by increasing the evaporation surface area (without changing the boiler). The rate of sugar dissolution at the initial stage is 45-50%. Later (in the case of storage) at room temperature, this indicator increases to 80% and above, as a result of which the resulting glucose begins to crystallize (like honey). To dissolve the syrup, it is placed in a vessel with water heated to 60-65°C.",
       "paragraph4": "Advantages of the proposed method: cheapness (the price of sugar is 80-85% of the cost of syrup); the content of 5-HMF in invert syrup does not exceed 5 mg/kg, unlike honey, in which this substance is contained in an amount of 20 mg / kg (at best); Bees can be fed with invert syrup at any time of the year, without causing exhaustion and burnout worker bees; The heater required for the industrial production of invert syrup runs on both gas and electricity, depending on the cost of the energy source. The source of enzyme β- Fructofuranosidase is a preparation developed by us. A package is enough to process 50 kg of dry sugar, its cost, excluding transportation, is USD 2.7.In addition to the above information, the author has posted materials on the Internet in Georgian, English and Russian on the following innovative measures for interested readers: Invertase (sucrase, β-fructofuranosidase) under the trade name “Hydrolytic Agent”; Determining the naturalness of honey (by express method); Candy- paste feed; Making bee bread, an environmentally friendly product, without beehive (honeycombs); Environmentally sound technologies for the production of jams and purees; Improved method of making Churchkhela – Georgian delicacy.",
       "img1": "../../images/invertSugar1.png",
-      "img2": "../../images/invertSugar.png"
+      "img2": "../../images/invertSugar.png",
+      "alt1": "hidroliz agent",
+      "alt2": "invert sugar"
     },
     {
       "id": 35,
@@ -180,7 +182,9 @@
       "img1": "../../images/invertase.jpg",
       "img2": "../../images/rotaryMixer.png",
       "caption1": "Hydrolysis agent",
-      "caption2": "Rotary mixer"
+      "caption2": "Rotary mixer",
+      "alt1": "Invertase",
+      "alt2": "Rotary mixer"
     },
     {
       "id": 36,
@@ -193,7 +197,9 @@
       "img1": "../../images/reagents.png",
       "img2": "../../images/honeyNat.png",
       "caption1": "   Reagents for honey analysis ",
-      "caption2": "Results of analysis of: honey (1), adulterated product(2), invert sirup (3) and food sugar(4)."
+      "caption2": "Results of analysis of: honey (1), adulterated product(2), invert sirup (3) and food sugar(4).",
+      "alt1": "Reagents for honey analysis",
+      "alt2": "Results of analysis"
     },
     {
       "id": 37,
@@ -208,7 +214,9 @@
       "img1": "../../images/candy.jpg",
       "img2": "../../images/candyAdditions.png",
       "caption1": "Candy of  monosacharides ",
-      "caption2": "Candy with additions"
+      "caption2": "Candy with additions",
+      "alt1": "Candy of  monosacharides",
+      "alt2": "Candy with additions"
     },
     {
       "id": 38,
@@ -226,9 +234,14 @@
       "img5": "../../images/bee-bread.png",
       "caption1": "Bee pollen",
       "caption2": " Bee bread",
-      "caption3": "",
+      "caption3": "Bee bread dryer",
       "caption4": "Vacuum camera  with pump",
-      "caption5": ""
+      "caption5": "",
+      "alt1": "Bee Pollen",
+      "alt2": "Bee Bread",
+      "alt3": "beepollen dryer",
+      "alt4": "Candy with additions",
+      "alt5": "Candy of  monosacharides"
     },
     {
       "id": 39,
@@ -251,7 +264,13 @@
       "caption3": "Jam: Pear",
       "caption4": "Jam: Apple",
       "caption5": "Jam:  Semi-dry Khendra",
-      "caption6": "Jam:  Semi-dry Quince"
+      "caption6": "Jam:  Semi-dry Quince",
+      "alt1": "Cherry jam ",
+      "alt2": "peachy jam",
+      "alt3": "pear jam",
+      "alt4": "apple jam",
+      "alt5": "Semi-dry Khendra",
+      "alt6": "Semi-dry Quince"
     },
 
     {
@@ -270,7 +289,11 @@
       "caption1": "Concentrated (78.5-81% by weight) samples of grape mash: 2-new technology, 3-oxidized (discolored)",
       "caption2": "Obtained by traditional technology (positive)",
       "caption3": "Made with new technology (negative)",
-      "caption4": "a) Churchkhela made by traditional technology; b) Sample prepared with new technology"
+      "caption4": "a) Churchkhela made by traditional technology; b) Sample prepared with new technology",
+      "alt1": "Cherry jam ",
+      "alt2": "traditional technology ",
+      "alt3": "new technology",
+      "alt4": "Churchkhela"
     }
   ]
 }
