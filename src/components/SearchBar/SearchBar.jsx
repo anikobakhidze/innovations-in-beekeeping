@@ -7,6 +7,9 @@ function SearchBar() {
   const { t } = useTranslation();
   const navigate = useNavigate();
   const inputRef = useRef(null);
+  const search = t("search", {
+    returnObjects: true,
+  });
   const [searchContent, setSearchContent] = useState("");
   const handleInputChange = (e) => {
     setSearchContent(e.target.value.toLowerCase());
@@ -38,7 +41,7 @@ function SearchBar() {
     <div ref={inputRef} className={styles.inputWrapper}>
       <input
         type="text"
-        placeholder="Search"
+        placeholder={search}
         value={searchContent}
         onChange={handleInputChange}
       />
