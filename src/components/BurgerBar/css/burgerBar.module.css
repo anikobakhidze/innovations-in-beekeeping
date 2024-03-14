@@ -1,27 +1,28 @@
- .menuBarWrapper {
-   display: none;
-   position: relative;
- }
+.menuBarWrapper {
+  display: none;
+  position: relative;
+}
 
- .menuBar {
-   background-color: var(--black-color);
-   color: var(--yellow-color);
-   font-size: 25px;
-   border: none;
- }
+.menuBar {
+  background-color: var(--black-color);
+  color: var(--yellow-color);
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+}
 
- @media screen and (max-width:970px) {
-   .menuBarWrapper {
-     display: flex;
-   }
+@media screen and (max-width: 970px) {
+  .menuBarWrapper {
+    display: flex;
+  }
 
-   .menuBarWrapper>div {
-     position: absolute;
-     top: 25px;
-     left: -110px;
-     background-color: var(--black-color);
-     width: 110px;
-     padding: 20px;
-     z-index: 30;
-   }
- }
+  .menuBarWrapper > div {
+    position: absolute;
+    top: 25px;
+    left: -110px;
+    background-color: var(--black-color);
+    width: 110px;
+    padding: 20px;
+    z-index: 30;
+  }
+}

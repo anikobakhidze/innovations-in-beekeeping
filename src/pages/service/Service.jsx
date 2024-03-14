@@ -6,7 +6,7 @@ import styles from "./css/service.module.css";
 import useTitle from "../../hook/useTitle.js";
 function Service() {
   const { t } = useTranslation();
-  useTitle("Service");
+  useTitle(t("service"));
   return (
     <section className={styles.serviceWrapper}>
       <div>

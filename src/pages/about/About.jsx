@@ -5,7 +5,7 @@ import styles from "./css/about.module.css";
 import useTitle from "../../hook/useTitle";
 function About() {
   const { t } = useTranslation();
-  useTitle("About Us");
+  useTitle(t("about"));
   return (
     <section className={styles.aboutWrapper}>
       <h2>{t("about")}</h2>

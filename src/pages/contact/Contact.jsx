@@ -5,7 +5,7 @@ import styles from "./css/contact.module.css";
 import useTitle from "../../hook/useTitle";
 function Contact() {
   const { t } = useTranslation();
-  useTitle("Contact Page");
+  useTitle(t("contact"));
   return (
     <div className={styles.contactWrapper}>
       <h2>{t("contact")}</h2>
