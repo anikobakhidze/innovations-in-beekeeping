@@ -164,6 +164,7 @@ body {
 .active {
   color: var(--cream-color);
 }
+
 @media screen and (max-width: 1200px) {
   #root {
     width: 100%;
