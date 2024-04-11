@@ -5,6 +5,10 @@
 
 პროექტი აწყობილია cra-ის მეშვეობით. ვებვერდი შეიცავს სტატიკურ ინფორმაციას. 
 
+საიტის სანახავად ეწვიეთ ვებ-გვერდს [Visit the Demetra Innovations website](https://innovationsdemetra.netlify.app/)
+
+
+
 ## პროექტის სტრუქტურა
 
 1. Public
