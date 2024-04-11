@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+ვებ გვერდზე წარმოდგენილია სასოფლო- სამეურნეო და კვების მრეწველობის საწარმოებში ინოვაციური ტექნოლოგიები
+<img width="847" alt="innovations-beekeeping" src="https://github.com/anikobakhidze/TBC_x_USAID/assets/80447919/8123c1c4-7ae4-47a4-bd75-9c01f1168581">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+პროექტი აწყობილია cra-ის მეშვეობით. ვებვერდი შეიცავს სტატიკურ ინფორმაციას. 
 
-## Available Scripts
+## პროექტის სტრუქტურა
 
-In the project directory, you can run:
+1. Public
+ - **images** - სურათების საქაღალდე შეიცავს სურათებს, რომლებიც გამოყენებულია ჩვენს პროექტში
+   
+2. src
+   -**components** - საქაღანდეში მოთავსებულია ყველა ის ფუნქციონალური კომპონენტი , რომელსაც ვიყენებთ ui -ს შესაქმნელად
+   - **config** - კონფიგურაციის საქაღალდე 
+       routes.js - შეიცავს მასივს, სადაც მოთავსებულია route-ის path და კომპონენტი - განსაზღვრავს  თითოეულ როუთზე რომელი კომპონენტიც უნდა დარენდერდეს. 
+  - **hook** - custom hook
+     useTitle- ქოსთუმ ჰუკი, რომ ყველა გვერდისთვის  სათაური დარენდერდეს.
+  - **pages** - საქაღალდე, რომელიც შეიცავს ყველა ვებ-გვერდს      
+  - **sharedCss** - წარმოადგენს სტილებს, რომლებიც განმეორებადია სხვადასხვა ელემენტებისთვის
+  - **translation** - ვებგვერდის სხვადასხვა ენის სამართავად
+    - en
+       translation.json - შეიცავს ინფორმაციას ინგლისურ ენაზე
+    - ka
+       translation.json - შეიცავს ინფორმაციას ქართულ ენაზე
+    - rus
+       translation.json - შეიცავს ინფორმაციას რუსულ ენაზე
+   - **App.css** -ლოადერის სტილი
+   - **App.js** - კომპონენტი პასუხისმგებელია  React აპლიკაციის ძირითად განლაგებაზე, მათ შორის, სათაურის, ქვედა კოლონტიტულისა და გვერდების;
+   - **AppRoutes.js** - ეს კომპონენტი დინამიურად აგენერირებს როუთებს როუთების მასივის მოწოდებულ მონაცემებზე დაყრდნობით, რაც საშუალებას იძლევა მოქნილი და მასშტაბური მიდგომა გქონდეთ მარშრუტიზაციის მართვაში  React აპლიკაციაში.
+   - **i18n.js**   - set up, რომლის მეშვეობითაც მარტივად ხდება ინტერნაციონალიზაცია თქვენს React აპლიკაციაში, გადავთარმნით სხვადასხვა ენაზე ვებგვერდზე არსებულ ინფორმაციას  JSON ფაილებში თარგმანების მიწოდებით .
+   - **index.js** -  ეს კოდი ახდენს  React აპლიკაციის ინიციალიზებას და დარენდერებას, აყენებს მარშრუტიზაციას React Router-ით და ინტერნაციონალიზაციას i18n-ით. ის ასახავს  მთავარ <App> კომპონენტს თქვენი HTML დოკუმენტის ძირეულ ელემენტში.
+    
+    
 
-### `npm start`
+## პროექტის გაშვება
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. დაკლონეთ რეპოზიტორი გითჰაბ ბმულიდან
+   https://github.com/anikobakhidze/innovations-in-beekeeping
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ან თქვენს ტერმინალში პირდაპირ გაუშვით ბრძანება
 
-### `npm test`
+git clone https://github.com/anikobakhidze/innovations-in-beekeeping
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. დაკლონილი პროექტი გახსენით VS კოდის ედიტორში
 
-### `npm run build`
+3. ტერმინალში გაუშვით ბრძანება npm i , რათა დაინსტალირდეს ყველა ის ბიბლიოთება, tool-ები რაც არსებობს package.json ფაილში
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. პროექტის ბრაუზერში გასახსნელად ტერმინალში გაუშვით ბრძანება npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+5. ტერმინალში გამოჩნდება http://localhost:3000 მსგავსი ლოკალური მისამართი, დააჭირეთ მას და პროექტი გაიხსნება ბრაუზერში
